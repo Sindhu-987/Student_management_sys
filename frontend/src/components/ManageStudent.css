@@ -1,0 +1,66 @@
+.manage-student-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .student-table th,
+  .student-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .student-table th {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .student-table img.student-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--border-color);
+  }
+  
+  .no-data {
+    text-align: center;
+    padding: 2rem;
+    font-style: italic;
+    color: var(--text-secondary);
+  }
+  
+  .no-photo {
+    color: var(--text-secondary);
+  }
+  
+  .status {
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .status.active {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .status.inactive {
+    background-color: var(--danger-color);
+    color: white;
+  }
+  
+  .loading-indicator {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+  
